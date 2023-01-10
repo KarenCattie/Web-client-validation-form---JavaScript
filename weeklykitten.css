@@ -1,0 +1,66 @@
+/*
+Name: Yalin Su
+Date: Nov 17, 2022
+Section: CST 8285 section 300
+Description: this is the external style sheet for registration.html
+*/
+
+/*
+set the font style for all the text in the body section
+*/
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*change the padding for all the content that is under class name formcontainer*/
+.formcontainer{
+    padding: 30pt;
+}
+
+/*change the style for all the input with text type*/
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*change the style for all the input with password type*/
+input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*change the style for all the button with submit type*/
+button[type=submit]{
+    width: 8%;
+    font-size:medium;
+    background-color: rgb(40, 119, 215);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*change the style for all the button with reset type*/
+button[type=reset]{
+    width: 8%;
+    font-size:medium;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

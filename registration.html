@@ -1,0 +1,63 @@
+<!--
+Name: Yalin Su
+Date: Nov 17, 2022
+Section: CST 8285 section 300
+This is the registration.html page for lab5 web 
+development work. It includes links to
+CSS style sheet and JavaScript sheet for this page.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Yalin Su">
+    <!-- Add authorship metadata and link CSS and JS files -->
+    <link rel="stylesheet" href="weeklykitten.css">
+    <script src="script.js" defer></script>
+    <title>Lab 5 - JavaScript 1</title>
+</head>
+<body>
+    <div class="formcontainer">
+        <h1>Weekly Kitten Pictures Subsription</h1>
+        <hr>
+        <form name="form" id="myForm" action="registration.html" method="get" onsubmit="return validate();">
+            <!-- You will need to write the validate function for this form. -->
+
+            <div class="textEmail">
+                <label for="email">Email Address</label>
+                <input type="text" name="email" id="email" placeholder="Email">
+            </div>
+
+            <div class="textUserName">
+                <label for="login">User Name</label>
+                <input type="text" name="login" id="login" placeholder="User name">
+            </div>
+
+            <div class="textPassword">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" placeholder="Password">
+            </div>
+        
+            <div class="textRetypePassword">
+                <label for="pass2">Re-type Password</label>
+                <input type="password" id="pass2" placeholder="Password">
+            </div>
+
+            <div class="checkboxNews">
+                <input type="checkbox" name="newsletter" id="newsletter" onclick="validateNews()">
+                <label for="newsletter">I agree to receive Weekly Kitten Pictures newsletters</label>
+            </div>
+
+            <div class="checkboxTerm">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">I agree to the terms and conditions</label>
+            </div>
+
+            <button type="submit" id="sign-up">Sign-Up</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
